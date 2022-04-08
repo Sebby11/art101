@@ -1,0 +1,28 @@
+h1 {
+	color: #0D3D56;
+	font-size: 45px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+p {
+	text-indent: 10px;
+}
+
+.Content {
+
+	text-align: center;
+	background-color: #B5C689;
+	width:  500px;
+	padding:  10px;
+	margin:  0 auto;
+	border:  solid 1px #444444;
+	font-size: 20px;
+}
+
