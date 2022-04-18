@@ -14,6 +14,18 @@
 	height: 300px;
 }
 
+#album {
+	outline-style: solid;
+	text-align: center;
+	background-color: #B5C689;
+	width:  500px;
+	padding:  10px;
+	margin:  0 auto;
+	float: left;
+	border:  solid 1px #444444;
+	font-size: 20px;
+}
+
 body {
 	background-color: #5C5F58;
 }
