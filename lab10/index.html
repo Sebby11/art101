@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 9: JavaScript for the Web</title>
+
+	<script type="text/javascript" src="js/lab.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+<body>
+
+	<div id="content">
+		<h1 id="head">Lab 9: JavaScript for the Web</h1>
+
+		<h3>Challenge</h3>
+		<p>We were tasked with getting user data through an input and button system on the page. These are to be within a form element. The user data with then be sorted within javascript and displayed on the page.</p>
+
+		<h3>Problems</h3>
+		<p>We ran into some problems with the eventListener task for the button. We found it easier to add the onclick functionality within the HTML element tag. The submit button also reloaded the page when pressed so we needed to deal with that as well.</p>
+
+		<h3>Results</h3>
+		<div id="output">
+			<form id="form">
+			  <label for="fname">Input your name:</label><br>
+			  <input type="text" id="user-name" required><br>
+			  <button type="submit" id="my-button" onclick="doSomething()">Submit</button>
+			</form>
+
+			<p id="announce"></p>
+			<p id="pName"></p>
+		</div>
+	</div>
+
+</body>
+</html>
