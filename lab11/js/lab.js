@@ -1,15 +1,13 @@
 /*
 * Authors: Alexa Medina <albmedina@ucsc.edu> & Sebastian Medina <seamedin@ucsc.edu>
-* Created: 11 May
+* Created: 17 May
 * License: Public Domain
 */
 
 /*
 - Self made function to easily create button for given div in
 	jQuery
-
 - Adding a phrase as a parameter allows us to change button name
-
 - Give each button's an id so they can be acecssed later
 */
 function setButton(div, phrase, id){
