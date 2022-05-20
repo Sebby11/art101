@@ -18,8 +18,8 @@ function FizzBuzz(){
 		var tmpVal = "";
 
 		// Create paragraph element
-		var tmpParagraph = document.createElement("p");
-		tmpParagraph.innerHTML = i;
+		var $tmpPara = $('<p></p>');
+		$tmpPara.innerHTML = i;
 
 		// Set to either fizz, buzz, boom, etc	
 		if (i % 3 == 0){
@@ -36,12 +36,12 @@ function FizzBuzz(){
 		}
 
 		if (exclaimFlag){
-			tmpParagraph.innerHTML += "-";
+			$tmpPara.innerHTML += "-";
 			tmpVal += "!";
-			tmpParagraph.innerHTML += tmpVal;
+			$tmpPara.innerHTML += tmpVal;
 		}
 
 		// Append element to main HTML file
-		outputDiv.appendChild(tmpParagraph);
+		$("#output").append("<p>"+ $tmpPara.innerHTML +"</p>")
 	}
 }
