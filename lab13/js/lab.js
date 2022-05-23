@@ -25,7 +25,7 @@ function FizzBuzz(){
 		if (i % 3 == 0){
 			tmpVal += "Fizz";
 			exclaimFlag = 1;
-		}
+		} 
 		if (i % 5 == 0){
 			tmpVal += "Buzz";
 			exclaimFlag = 1;
