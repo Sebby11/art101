@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 15: AJAX </title>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<!-- Defer means the script will run after page parses -->
+	<script src="js/lab.js" defer></script>
+
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+<body>
+
+	<div id="content">
+		<div id="title">
+			<h1 id="head">Lab 15: AJAX </h1>
+		</div>
+
+		<div id="challenge">
+			<h3>Challenge</h3>
+			<p>We were tasked with using jQuery and AJAX to access data from an API to then display it to the page.</p>
+		</div>
+
+		<div id="problem">
+			<h3>Problems</h3>
+			<p>First we chose the XKCD comic API, but it was causing a CORS error that we didn't know how to fix so we switched to the PokeAPI. This caused little to no problems as AJAX worked fine.</p>
+		</div>
+
+		<div id="res">
+			<h3>Results</h3>
+			<button id="activate" >Get a Poke Berry!</button>
+			<br>
+			<div id="output">
+				<p>Content before AJAX change.</p>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
